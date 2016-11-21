@@ -1,0 +1,7 @@
+<h2><%= @grid_string %></h2>
+<form action="/score">
+  <input type="string" name="answer">
+  <input type="submit" value="Enter">
+  <input type="hidden" name="start_time" value="<%= @start_time %>">
+  <input type="hidden" name="grid" value="<%= @grid_string %>">
+</form>

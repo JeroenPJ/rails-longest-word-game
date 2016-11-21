@@ -1,0 +1,10 @@
+<h1>Your score</h1>
+<h2><%= @results[:score] %></h2>
+<hr>
+<h3>Time: <%= @results[:time] %></h3>
+<hr>
+<h3>Translation: <%= @results[:translation] %></h3>
+<h4><%= @results[:message] %></h4>
+
+<hr>
+<%= link_to "Play again", play_path %>
